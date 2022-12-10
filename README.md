@@ -14,8 +14,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Github](https://github.com/adram3l3ch/Where-in-the-world)
--   Live Site URL: [Netlify](https://adramelech-where-in-the-world.netlify.app/)
+-   Solution URL: [Github](https://github.com/shibincreji/where-in-the-world)
+-   Live Site URL: [Netlify](https://whereintheworldbro.netlify.app)
 
 ### Built with
 
