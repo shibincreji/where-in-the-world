@@ -1,0 +1,48 @@
+.select {
+	width: max-content;
+}
+.select header,
+.select main {
+	width: 200px;
+	border-radius: 5px;
+	background-color: var(--input);
+	color: var(--text);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.173);
+	overflow: hidden;
+	user-select: none;
+}
+
+.select header {
+	padding: 0.9rem 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.select main {
+	position: absolute;
+	margin-top: 10px;
+	z-index: 1000;
+	max-height: 0;
+	transition: max-height 0.2s linear;
+}
+
+.select main > * {
+	padding: 1rem 1rem;
+	cursor: pointer;
+}
+
+.select main > *:hover {
+	background-color: var(--text);
+	color: var(--input);
+}
+
+.select:hover main {
+	max-height: 500px;
+}
+
+@media (max-width: 768px) {
+	.select {
+		margin-top: 30px;
+	}
+}
